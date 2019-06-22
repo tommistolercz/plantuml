@@ -1,0 +1,73 @@
+@startuml
+
+!ifndef FONTNAME
+    !define FONTNAME "Menlo"
+!endif
+!ifndef FONTSIZE
+    !define FONTSIZE 11
+!endif
+
+!ifdef LIGHTORANGE
+    !define LIGHTSTYLE
+    !define ACCENT FF8800
+    !define ACCENTDARK BB6600
+    skinparam stereotypeCBackgroundColor ACCENT
+!endif
+!ifdef DARKORANGE
+    !define DARKSTYLE
+    !define ACCENT BB6600
+    !define ACCENTDARK 662200
+    skinparam stereotypeCBackgroundColor ACCENT
+!endif
+
+!ifdef LIGHTSTYLE
+    !define PRIMARY 000
+    !define SECONDARY 333
+    !define ARROWCOLOR 000
+    !define ARROWFONTCOLOR 333
+    !define BORDERCOLOR aaa
+    !define BOXBG ccc
+    skinparam backgroundColor fff
+!endif
+!ifdef DARKSTYLE
+    !define PRIMARY fff
+    !define SECONDARY aaa
+    !define ARROWCOLOR fff
+    !define ARROWFONTCOLOR bbb
+    !define BORDERCOLOR 1b1b1b
+    !define BOXBG 2e2e2e
+    skinparam backgroundColor 777
+!endif
+
+skinparam class {
+    backgroundColor BOXBG
+    borderColor BORDERCOLOR
+    fontColor PRIMARY
+    fontName FONTNAME
+    fontSize FONTSIZE
+    arrowColor ARROWCOLOR
+    arrowFontName FONTNAME
+    arrowFontColor ARROWFONTCOLOR
+    arrowFontSize FONTSIZE
+    attributeFontColor SECONDARY
+    attributeFontSize FONTSIZE
+    attributeIconSize FONTSIZE
+    stereotypeFontColor SECONDARY
+    stereotypeFontSize FONTSIZE
+}
+
+skinparam circledCharacter {
+    radius 8
+    fontSize FONTSIZE
+    fontName FONTNAME
+}
+
+skinparam note {
+    backgroundColor ACCENT
+    borderColor ACCENTDARK
+    fontColor PRIMARY
+    fontName FONTNAME
+    fontSize FONTSIZE
+}
+
+@enduml
