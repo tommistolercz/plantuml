@@ -1,10 +1,7 @@
 
 @startuml
 
-skinparam ArrowColor #DarkGray
-skinparam BorderColor #DarkGray
-skinparam BorderThickness 1
-skinparam BackgroundColor #LightGray
+skinparam BackgroundColor transparent
 skinparam ComponentStyle uml2
 skinparam Shadowing false
 
