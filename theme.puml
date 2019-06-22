@@ -1,22 +1,16 @@
 
 @startuml
 
-skinparam BackgroundColor transparent
-skinparam Shadowing false
+skinparam ArrowColor #DarkGray
+skinparam BorderColor #DarkGray
+skinparam BorderThickness 1
+skinparam BackgroundColor #LightGray
 skinparam ComponentStyle uml2
+skinparam Shadowing false
 
-skinparam Default {
-    FontColor #Black
-    FontName "Roboto"
-    MonospacedFontName "Roboto Mono"
-    FontStyle normal
-    FontSize 11
-}
-
-skinparam Class {
-    BackgroundColor #LightGray
-    BorderColor #DarkGray
-    BorderThickness 1
-}
+skinparam DefaultFontColor #Black
+skinparam DefaultFontName "Roboto"
+skinparam DefaultFontStyle normal
+skinparam DefaultFontSize 11
 
 @enduml
