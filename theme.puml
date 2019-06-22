@@ -1,49 +1,21 @@
+
 @startuml
 
-!define FONTNAME "Menlo"
-!define FONTSIZE 11
+skinparam BackgroundColor transparent
+skinparam Shadowing false
+skinparam ComponentStyle uml2
 
-!define ACCENT FF8800
-!define ACCENTDARK BB6600
-!define PRIMARY 000
-!define SECONDARY 333
-!define BOXBG ccc
-!define BORDERCOLOR aaa
-!define ARROWCOLOR 000
-!define ARROWFONTCOLOR 333
-
-skinparam backgroundColor fff
-skinparam stereotypeCBackgroundColor ACCENT
-
-skinparam class {
-    backgroundColor BOXBG
-    borderColor BORDERCOLOR
-    fontColor PRIMARY
-    fontName FONTNAME
-    fontSize FONTSIZE
-    arrowColor ARROWCOLOR
-    arrowFontName FONTNAME
-    arrowFontColor ARROWFONTCOLOR
-    arrowFontSize FONTSIZE
-    attributeFontColor SECONDARY
-    attributeFontSize FONTSIZE
-    attributeIconSize FONTSIZE
-    stereotypeFontColor SECONDARY
-    stereotypeFontSize FONTSIZE
+skinparam Default {
+    FontColor #Black
+    FontName "Roboto Mono"
+    FontStyle normal
+    FontSize 11
+    BackgroundColor #LightGray
+    BorderColor #DarkGray
 }
 
-skinparam circledCharacter {
-    radius 8
-    fontSize FONTSIZE
-    fontName FONTNAME
-}
-
-skinparam note {
-    backgroundColor ACCENT
-    borderColor ACCENTDARK
-    fontColor PRIMARY
-    fontName FONTNAME
-    fontSize FONTSIZE
+skinparam CircledCharacter {
+    Radius 6
 }
 
 @enduml
