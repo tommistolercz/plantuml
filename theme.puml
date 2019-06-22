@@ -7,7 +7,8 @@ skinparam ComponentStyle uml2
 
 skinparam Default {
     FontColor #Black
-    FontName "Roboto Mono"
+    FontName "Roboto"
+    MonospacedFontName "Roboto Mono"
     FontStyle normal
     FontSize 11
 }
