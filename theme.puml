@@ -10,12 +10,12 @@ skinparam Default {
     FontName "Roboto Mono"
     FontStyle normal
     FontSize 11
-    BackgroundColor #LightGray
-    BorderColor #DarkGray
 }
 
-skinparam CircledCharacter {
-    Radius 6
+skinparam Class {
+    BackgroundColor #LightGray
+    BorderColor #DarkGray
+    BorderThickness 1
 }
 
 @enduml
