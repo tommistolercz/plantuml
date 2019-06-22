@@ -2,11 +2,10 @@
 @startuml
 
 skinparam ComponentStyle uml2
-skinparam BackgroundColor transparent
 skinparam Shadowing false
 
 skinparam DefaultFontColor #Black
-skinparam DefaultFontName "Roboto Mono"
+skinparam DefaultFontName "Roboto"
 skinparam DefaultFontStyle normal
 skinparam DefaultFontSize 11
 
