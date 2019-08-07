@@ -1,5 +1,4 @@
 @startuml
-!include https://raw.github.com/tommistolercz/plantuml/master/themes/theme.puml
 left to right direction
 
 actor User
