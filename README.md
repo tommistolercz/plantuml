@@ -17,9 +17,4 @@ User --> (Sign in)
 
 ### PlantUML diagram image (using proxy service)
 
-
-```markdown
-![PlantUML diagram image](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/tommistolercz/plantuml/develop/diagrams/usecase.puml)
-```
-
-![PlantUML diagram image](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/tommistolercz/plantuml/develop/diagrams/usecase.puml)
+![PlantUML diagram image](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/tommistolercz/plantuml/master/diagrams/usecase.puml&cache=no)
