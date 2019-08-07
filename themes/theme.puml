@@ -8,4 +8,6 @@ skinparam DefaultFontName "Arial"
 skinparam DefaultFontStyle normal
 skinparam DefaultFontSize 11
 
+left to right direction
+
 @enduml
