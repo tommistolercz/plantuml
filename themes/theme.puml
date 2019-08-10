@@ -1,11 +1,10 @@
 @startuml
 
-skinparam ComponentStyle uml2
-skinparam Shadowing false
-
-skinparam DefaultFontColor #Black
-skinparam DefaultFontName "Arial"
-skinparam DefaultFontStyle normal
-skinparam DefaultFontSize 11
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam defaultFontColor #Black
+skinparam componentStyle uml2
+skinparam shadowing false
+'skinparam monochrome true
 
 @enduml
