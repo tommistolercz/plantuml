@@ -5,6 +5,6 @@ skinparam defaultFontSize 11
 skinparam defaultFontColor #Black
 skinparam componentStyle uml2
 skinparam shadowing false
-'skinparam monochrome true
+skinparam monochrome true
 
 @enduml
