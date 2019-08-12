@@ -9,5 +9,3 @@
 
 @enduml
 ```
-
-![example: usecase](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/tommistolercz/plantuml/master/example-usecase.puml)
