@@ -1,8 +1,9 @@
 @startuml
+!include https://raw.githubusercontent.com/tommistolercz/plantuml/master/theme.puml
+
 left to right direction
 
-actor User
-User --> (Register)
-User --> (Sign in)
+:User: -- (Register)
+:User: -- (Sign in)
 
 @enduml
