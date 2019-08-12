@@ -18,7 +18,7 @@ User --> (Sign in)
 ### PlantUML diagram image (using proxy service)
 
 ```
-![PlantUML diagram image](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/tommistolercz/plantuml/master/diagrams/usecase.puml&cache=no)
+![PlantUML diagram image](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/tommistolercz/plantuml/master/example-usecase.puml)
 ```
 
-![PlantUML diagram image](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/tommistolercz/plantuml/master/diagrams/usecase.puml&cache=no)
+![PlantUML diagram image](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/tommistolercz/plantuml/master/example-usecase.puml)
